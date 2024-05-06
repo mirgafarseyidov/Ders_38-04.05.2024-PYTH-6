@@ -42,22 +42,16 @@
 # input_str = input("Bir eded daxil: ") 
 # print("Rəqəmlərin hasil edilməsi:", raqamlari_vur(input_str))
  #4
-# def bolenleri_bul(sayi):
-#     return [x for x in range(1, sayi + 1) if sayi % x == 0]
-
-# sayi = int(input("Bir sayı girin: "))  # Kullanıcıdan bir sayı girmesini istiyoruz
-# print("Bölənlər:", bolenleri_bul(sayi))
+# eded=int(input("Eded daxil edin : "))
+# print(list(i for i in range(1,eded) if eded % i==0))
 # 5
-# my_list = ['may', 'iyun', 'iyul']
-# ay_uzunluq = {ay: len(ay) for ay in my_list}
-# print(ay_uzunluq)
-# 6
-# def adlari_cixart(names):
-#     return [name.split()[0].lower() for name in names]
 
-# names = ["Rick Sanchez", "Morty Smith", "Summer Smith", "Jerry Smith", "Beth Smith"]
-# adlar = adlari_cixart(names)
-# print(adlar)
+# months=["Yanvar","Fevral","Mart","Aprel","May","Iyun","Iyul","Avqust","Sentyabr","Oktyabr","Noyabr","Dekabr"]
+# print(dict((i, len(i)) for i in months))
+
+# 6
+# names = ["Rick Sanchez", "Morty Smith", "Summer Smith", "Jerry Smith", "Beth Smith","Elvin Abi]
+# print(list(i.split().lower() for i in names))
 # 7
 # nums1 = [1, 2, 3]
 # nums2 = [4, 5, 6]
